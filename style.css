@@ -32,13 +32,13 @@ nav a {
     color: white;
 }
 
-main > section#direita {
+main section#direita {
+    width: 100%;
     justify-content: end;
 }
 
-main > section > article#sobre {
+main article#sobre {
     position: relative;
-    display: inline-block;
     height: 150px;
     width: 150px;
     background-color: white;
