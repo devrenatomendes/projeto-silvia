@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0px;
@@ -10,7 +13,11 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-
+    background-image: url(imagens/retrato-de-mulher-elegante-senior-em-rosa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
 }
 
 header {
@@ -35,6 +42,7 @@ nav a {
 main section#direita {
     width: 100%;
     justify-content: end;
+    display: flex;
 }
 
 main article#sobre {
@@ -48,15 +56,10 @@ main article#sobre {
 h1 {
     font-family: 'Sono', sans-serif;
     font-size: 5em;
-    
 }
 
 main {
-    height: 600px;
-    background-image: url(imagens/retrato-de-mulher-elegante-senior-em-rosa.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left top;
+    height: 80vh;
 }
 
 footer {
@@ -79,4 +82,3 @@ footer h3 {
     font-family: 'Sono';
     font-size: 2em;
     padding-bottom: 20px;
-}
